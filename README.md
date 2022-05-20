@@ -1,4 +1,6 @@
 # Time Machine
+Adapting Tobin Bradley's [Time Machine](tobinbradley/timemachine) to King County, WA.
+Added esri-leaflet to more easily handle KC aerial services.
 
 Aerial viewer built using Leaflet, Svelte, and TailwindCSS. [Demo site](https://timemachine.mcmap.org).
 

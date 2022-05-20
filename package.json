@@ -21,6 +21,7 @@
     "workbox-cli": "^6.5.3"
   },
   "dependencies": {
+    "esri-leaflet": "^3.0.8",
     "leaflet": "^1.8.0"
   }
 }

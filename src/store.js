@@ -1,5 +1,5 @@
 import { writable, readable, derived, get } from 'svelte/store'
-import meckaerials from './assets/surveys.json'
+import myaerials from './assets/surveys.json'
 
 // API tokens
 export const nearToken = readable(import.meta.env.VITE_NEARTOKEN)
@@ -9,13 +9,13 @@ export const eagleToken = readable("")
 // surveys
 export let aerials = writable(null)
 const makeAerials = []
-meckaerials.forEach(el => {
+myaerials.forEach(el => {
   makeAerials.push({
     url: el.url,
     flydate: new Date(el.flydate).getTime(),
     minzoom: el.minzoom,
     maxzoom: el.maxzoom,
-    attribution: `${el.flydate} Mecklenburg County GIS`
+    attribution: `${el.flydate} King County GIS`
   })
 })
 
@@ -23,10 +23,10 @@ if (!import.meta.env.VITE_NEARTOKEN) {
   makeAerials.sort((a, b) => b.flydate - a.flydate)
   aerials.set(makeAerials)
 } else {
-  fetch(`https://api.nearmap.com/coverage/v2/poly/-81.058205,35.00216,-80.550109,35.00216,-80.550109,35.5148,-81.058205,35.5148,-81.058205,35.00216?apikey=${import.meta.env.VITE_NEARTOKEN}&limit=200`)
+  fetch(`https://api.nearmap.com/coverage/v2/poly/-122.552490,47.258728,-121.225891,47.258728,-121.225891,47.831596,-122.552490,47.831596,-122.552490,47.258728?apikey=${import.meta.env.VITE_NEARTOKEN}&limit=200`)
     .then(response => {
       if (!response.ok) {
-          throw new Error("HTTP error " + response.status);
+        throw new Error("HTTP error " + response.status);
       }
       return response.json();
     })
@@ -109,5 +109,5 @@ untilDate.subscribe(value => {
 
 function setHash() {
   if (get(mapLocation) && get(untilDate))
-  document.location.hash = `${get(mapLocation).join('/')}/${get(untilDate)}`
+    document.location.hash = `${get(mapLocation).join('/')}/${get(untilDate)}`
 }
