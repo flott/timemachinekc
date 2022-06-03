@@ -139,13 +139,9 @@
         ${location ? `<div class="mb-2">PID ${location.pid}</div>` : ""}
         <div>${survey}</div>
         <div>
-          <a href="https://mcmap.org/geoportal/#${lng},${lat}/schools" target="_blank">GeoPortal</a> 	&#9702;
-          ${
-            location
-              ? ` <a href="https://polaris3g.mecklenburgcountync.gov/#&pid=${location.pid}" target="_blank">POLARIS</a> 	&#9702;`
-              : ""
-          }
-          <a href="http://maps.co.mecklenburg.nc.us/meckscope/?lat=${lat}&lon=${lng}" target="_blank">EagleView</a> &#9702;
+          <a href="https://gismaps.kingcounty.gov/imap/?center=${lng},${lat}&level=${
+      map.getZoom() - 8
+    }" target="_blank">iMap</a> 	&#9702;
           <a href="https://www.google.com/maps/@${lat},${lng},18z" target="_blank">Google Maps</a>
         </div>
     `;
