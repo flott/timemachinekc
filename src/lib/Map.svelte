@@ -157,6 +157,11 @@
         fill: false,
       },
     });
+    const tmBoundary = L.geoJSON(geoBoundary, {
+      style: {
+        fill: false,
+      },
+    });
     map = L.map(node, {
       //maxBounds: boundary.getBounds(),
       attributionControl: false,
@@ -202,7 +207,7 @@
     magnifyingGlass = magGlass({
       zoomOffset: 0,
       radius: 130,
-      boundary: boundary,
+      boundary: tmBoundary,
       layer: tiledMapLayer({
         url: "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_1936/MapServer",
       }),
