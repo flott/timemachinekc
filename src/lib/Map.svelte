@@ -142,7 +142,7 @@
           <a href="https://gismaps.kingcounty.gov/imap/?center=${lng},${lat}&level=${
       map.getZoom() - 8
     }" target="_blank">iMap</a> 	&#9702;
-          <a href="https://www.google.com/maps/@${lat},${lng},18z" target="_blank">Google Maps</a>
+          <a href="https://www.google.com/maps/@${lat},${lng},${map.getZoom()}z" target="_blank">Google Maps</a>
         </div>
     `;
   }
