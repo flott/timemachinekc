@@ -1,78 +1,78 @@
 [
   {
-    "flydate": "2021",
+    "flydate": "2021-01-02",
     "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer",
     "minzoom": 8,
     "maxzoom": 20
   },
   {
-    "flydate": "2019",
+    "flydate": "2019-01-02",
     "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer",
     "minzoom": 8,
     "maxzoom": 20
   },
   {
-    "flydate": "2017",
+    "flydate": "2017-01-02",
     "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2017/MapServer",
     "minzoom": 8,
     "maxzoom": 20
   },
   {
-    "flydate": "2015",
+    "flydate": "2015-01-02",
     "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2015/MapServer",
     "minzoom": 8,
     "maxzoom": 20
   },
   {
-    "flydate": "2013",
+    "flydate": "2013-01-02",
     "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2013/MapServer",
     "minzoom": 8,
     "maxzoom": 20
   },
   {
-    "flydate": "2012",
+    "flydate": "2012-01-02",
     "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2012/MapServer",
     "minzoom": 8,
     "maxzoom": 19
   },
   {
-    "flydate": "2009",
+    "flydate": "2009-01-02",
     "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2009/MapServer",
     "minzoom": 8,
     "maxzoom": 19
   },
   {
-    "flydate": "2007",
+    "flydate": "2007-01-02",
     "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2007/MapServer",
     "minzoom": 8,
     "maxzoom": 19
   },
   {
-    "flydate": "2005",
+    "flydate": "2005-01-02",
     "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2005/MapServer",
     "minzoom": 8,
     "maxzoom": 19
   },
   {
-    "flydate": "2002",
+    "flydate": "2002-01-02",
     "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2002/MapServer",
     "minzoom": 8,
     "maxzoom": 19
   },
   {
-    "flydate": "2000",
+    "flydate": "2000-01-02",
     "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2000/MapServer",
     "minzoom": 8,
     "maxzoom": 19
   },
   {
-    "flydate": "1998",
+    "flydate": "1998-01-02",
     "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_1998/MapServer",
     "minzoom": 8,
     "maxzoom": 19
   },
   {
-    "flydate": "1936",
+    "flydate": "1936-01-02",
     "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_1936/MapServer",
     "minzoom": 8,
     "maxzoom": 20
